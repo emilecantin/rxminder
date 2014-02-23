@@ -1,0 +1,72 @@
+{
+	"tasks" : [
+               {
+               "name": "1",
+               "tasks": [
+                         {
+                         "name" : "Médicaments",
+                         "tasks" : [
+                                    { "name" : "Advil" },
+                                    { "name" : "Tylenol" },
+                                    { "name" : "Robitussin" },
+                                    { "name" : "Soluté" }
+                                    ]
+                         },
+                         {
+                         "name" : "Soins",
+                         "tasks" : [
+                                    { "name" : "Changer Pansement" },
+                                    { "name" : "Signes Vitaux" },
+                                    { "name" : "Massage de pieds" },
+                                    { "name" : "Vérifier blessure" }
+                                    ]
+                         }
+                         ]
+               },
+               {
+               "name": "2",
+               "tasks": [
+                         {
+                         "name" : "Médicaments",
+                         "tasks" : [
+                                    { "name" : "Advil" },
+                                    { "name" : "Tylenol" },
+                                    { "name" : "Robitussin" },
+                                    { "name" : "Soluté" }
+                                    ]
+                         },
+                         {
+                         "name" : "Soins",
+                         "tasks" : [
+                                    { "name" : "Changer Pansement" },
+                                    { "name" : "Signes Vitaux" },
+                                    { "name" : "Massage de pieds" },
+                                    { "name" : "Vérifier blessure" }
+                                    ]
+                         }
+                         ]
+               },
+               {
+               "name": "3",
+               "tasks": [
+                         {
+                         "name" : "Médicaments",
+                         "tasks" : [
+                                    { "name" : "Advil" },
+                                    { "name" : "Tylenol" },
+                                    { "name" : "Soluté" }
+                                    ]
+                         },
+                         {
+                         "name" : "Soins",
+                         "tasks" : [
+                                    { "name" : "Changer Pansement" },
+                                    { "name" : "Signes Vitaux" },
+                                    { "name" : "Massage de pieds" },
+                                    { "name" : "Vérifier blessure" }
+                                    ]
+                         }
+                         ]
+               }
+               ]
+}

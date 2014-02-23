@@ -1,0 +1,14 @@
+{
+
+    "@import" : [
+    ],
+
+    "RXPatientSplitController" : {
+        "view" : {
+        }
+    },
+    "UIBarButtonItem[name=add]" :{
+        "width" : 27,
+        "height" : 27
+    }
+}

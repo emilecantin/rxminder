@@ -1,0 +1,58 @@
+{
+
+    "@import" : [
+        "UINavigationController"
+    ],
+
+    "RXTaskListTableViewController" : {
+        "view" : {
+            "layoutBoxes" : [
+                { "@class" : "CKImageView", "name" : "fullDayView", "hidden" : 1 }
+            ],
+            "backgroundColor" : "whiteColor"
+        },
+
+        "tableViewContainer" : {
+            "backgroundColor" : "clearColor"
+        },
+
+        "tableView" : {
+             "backgroundColor" : "clearColor"
+        },
+
+        "tableViewInsets" : "-36 0 0 0",
+
+        "CKTableViewCellController" : {
+            "UITableViewCell" : {
+                "contentView" : {
+                    "backgroundColor" : "Colors.LightGray",
+                    "layoutBoxes" : [
+                        { "@class" : "CKHorizontalBoxLayout", "fixedHeight" : 85, "layoutBoxes" : [
+                            { "@class" : "CKImageView", "name" : "cellView" }
+                        ]}
+                    ]}
+                },
+                "accessoryView" : {
+                    "backgroundView" : "Colors.LightGray"
+                },
+                "backgroundView" : {
+                },
+                "selectedBackgroundView" : {
+                },
+                "textLabel" : {
+                },
+                "detailTextLabel" : {
+                },
+                "imageView" : {
+                }
+            }
+        },
+        "CKImageView[name=cellView]" : {
+            "defaultImage" : "taskCell1"
+        },
+        "CKImageView[name=fullDayView]" : {
+            "defaultImage" : "full_day_view"
+        }
+    }
+
+}

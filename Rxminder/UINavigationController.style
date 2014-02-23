@@ -1,0 +1,25 @@
+{
+    "@import" : [
+        "Colors"
+    ],
+    
+    "UINavigationController" : {
+        "navigationBar" : {
+//            "tintColor" : "Colors.AzureBlue",
+            "barTintColor" : "Colors.AzureBlue",
+
+            "UIBarButtonItem" : {
+                "width" : 30,
+                "height" : 30,
+                "defaultTextColor" : "whiteColor",
+                "selectedTextColor" : "grayColor"
+            },
+
+            "titleView" : {
+                "numberOfLines" : 2,
+                "font" : [ "Helvetica", 14],
+                "textAlignment" : "UITextAlignmentCenter"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+
+    "@import" : [
+        "UINavigationController",
+        "Colors",
+        "Labels"
+    ],
+
+    "RXTimeDescriptorController" : {
+        "view" : {
+            "layoutBoxes" : [
+                { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                    { "@class" : "CKImageView", "name" : "timeSelectionView" }
+                ]},
+                { "@class" : "CKVerticalBoxLayout", "horizontalAlignment" : "CKLayoutHorizontalAlignmentCenter", "layoutBoxes" : [
+                    { "@class" : "CKLayoutFlexibleSpace" },
+                        { "@class" : "CKLayoutFlexibleSpace" },
+                        { "@class" : "UIButton", "name" : "doneButton", "fixedWidth" : 320, "fixedHeight" : 120 }
+                ]}
+            ]
+        },
+        "UIButton[name=doneButton]" : {
+            "titleLabel" : {
+                "@inherits" : [ "$doneButton" ]
+            },
+            "defaultTitle" : "Done",
+            "backgroundColor" : "Colors.AzureBlue"
+        },
+        "CKImageView[name=timeSelectionView]" : {
+            "defaultImage" : "time_selection_view"
+        }
+    }
+
+}

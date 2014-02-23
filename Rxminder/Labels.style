@@ -1,0 +1,36 @@
+{
+    "@inherits" : [
+        "Colors"
+    ],
+    
+    "$boxInfoData" : {
+        "font" : [ "OpenSans-Light", 20 ],
+        "textColor" : "Colors.Charcoal",
+        "textAlignment" : 1
+    },
+    "$smallBoxTitle" : {
+        "font" : [ "OpenSans-Bold", 12 ],
+        "textColor" : "Colors.GrayStroke",
+        "textAlignment" : 1
+    },
+    "$subviewTitle" : {
+        "font" : [ "OpenSans-Light", 17],
+        "textColor" : "Colors.AzureBlue"
+    },
+    "$subviewText" : {
+        "font" : [ "OpenSans-Light", 12 ],
+        "textColor" : "Colors.GrayStroke",
+        "numberOfLines" : 0
+    },
+    "$createButtonLabel" : {
+        "font" : [ "OpenSans-Light", 15 ],
+        "textColor" : "Colors.AzureBlue",
+        "textAlignment" : 1,
+        "numberOfLines" : 2
+    },
+    "$doneButton" : {
+        "font" : [ "OpenSans-Light", 35 ],
+        "textColor" : "whiteColor",
+        "textAlignment" : 1
+    }
+}

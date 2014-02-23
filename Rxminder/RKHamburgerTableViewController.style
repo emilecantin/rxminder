@@ -1,0 +1,41 @@
+{
+
+    "@import" : [
+        "UINavigationController",
+        "Colors"
+    ],
+
+    "RKHamburgerTableViewController" : {
+
+        "view" : {
+            "backgroundColor" : "Colors.LightGray"
+        },
+
+        "tableViewContainer" : {
+            "backgroundColor" : "clearColor"
+        },
+
+        "tableView" : {
+             "backgroundColor" : "clearColor"
+        },
+
+
+        "CKTableViewCellController" : {
+            "UITableViewCell" : {
+                "contentView" : {
+                },
+                "backgroundView" : {
+                },
+                "selectedBackgroundView" : {
+                },
+                "textLabel" : {
+                },
+                "detailTextLabel" : {
+                },
+                "imageView" : {
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+
+    "@import" : [
+        "UINavigationController",
+        "Labels",
+        "Colors"
+    ],
+
+    "RXPatientsController" : {
+        "splitViewConstraints" : {
+            "type" : "CKSplitViewConstraintsTypeFixedSizeInPixels",
+            "size" : 215
+        },
+        "view" : {
+            "backgroundColor" : "Colors.WhiteLightGray",
+            "layoutBoxes" : [
+                { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                    //Top boxes
+                    { "@class" : "CKHorizontalBoxLayout", "layoutBoxes" : [
+                        { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                            { "@class" : "CKLayoutFlexibleSpace" },
+                            { "@class" : "UILabel", "name" : "numberLabelInfo" },
+                            { "@class" : "UILabel", "name" : "numberLabel", "padding" : "0 0 0 0" },
+                            { "@class" : "CKLayoutFlexibleSpace" }
+                        ]},
+                        { "@class" : "UIView", "fixedWidth" : 1, "name" : "seperatorView" },
+                        { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                            { "@class" : "CKLayoutFlexibleSpace" },
+                            { "@class" : "UILabel", "name" : "initialsLabelInfo" },
+                            { "@class" : "UILabel", "name" : "initialsLabel" },
+                            { "@class" : "CKLayoutFlexibleSpace" }
+                        ]},
+                        { "@class" : "UIView", "fixedWidth" : 1, "name" : "seperatorView" },
+                        { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                            { "@class" : "CKLayoutFlexibleSpace" },
+                            { "@class" : "UILabel", "name" : "ageLabelInfo" },
+                            { "@class" : "UILabel", "name" : "ageLabel" },
+                            { "@class" : "CKLayoutFlexibleSpace" }
+                        ]},
+                        { "@class" : "UIView", "fixedWidth" : 1, "name" : "seperatorView" },
+                        { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                            { "@class" : "CKLayoutFlexibleSpace" },
+                            { "@class" : "UILabel", "name" : "weightLabelInfo" },
+                            { "@class" : "UILabel", "name" : "weightLabel" },
+                            { "@class" : "CKLayoutFlexibleSpace" }
+                        ]}
+                    ]},
+                    { "@class" : "UIView", "fixedHeight" : 1, "name" : "seperatorView" },
+                    { "@class" : "UIView", "name" : "diagnosticView","fixedHeight" : 85, "backgroundColor" : "Colors.LightGray", "layoutBoxes" : [
+                        { "@class" : "CKVerticalBoxLayout", "padding" : "10 15 10 10", "layoutBoxes" : [
+                            { "@class" : "UILabel", "name" : "diagnosticTitle" },
+                            { "@class" : "UILabel", "name" : "diagnosticInfo" }
+                        ]}
+                    ]},
+                    { "@class" : "UIView", "fixedHeight" : 1, "name" : "seperatorView" },
+                    { "@class" : "UIView", "name" : "notesView", "fixedHeight" : 85, "padding" : "10 15 10 10", "layoutBoxes" : [
+                        { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                            { "@class" : "UILabel", "name" : "notesTitle" },
+                            { "@class" : "UILabel", "name" : "notesInfo" }
+                        ]}
+                    ]}
+                ]}
+            ]
+        },
+        "UIView[name=seperatorView]" : {
+            "backgroundColor" : "Colors.GrayStroke"
+        },
+        "UILabel[name=numberLabel]" : {
+            "@inherits" : [ "$smallBoxTitle" ],
+            "text" : "Numéro"
+        },
+        "UILabel[name=initialsLabel]" : {
+            "@inherits" : [ "$smallBoxTitle" ],
+            "text" : "Initiales"
+        },
+        "UILabel[name=ageLabel]" : {
+            "@inherits" : [ "$smallBoxTitle" ],
+            "text" : "Âge"
+        },
+        "UILabel[name=weightLabel]" : {
+            "@inherits" : [ "$smallBoxTitle" ],
+            "text" : "Poids"
+        },
+        "UILabel[name=numberLabelInfo]" : {
+            "@inherits" : [ "$boxInfoData" ]
+        
+        },
+        "UILabel[name=initialsLabelInfo]" : {
+            "@inherits" : [ "$boxInfoData" ]
+        
+        },
+        "UILabel[name=ageLabelInfo]" : {
+            "@inherits" : [ "$boxInfoData" ]
+        
+        },
+        "UILabel[name=weightLabelInfo]" : {
+            "@inherits" : [ "$boxInfoData" ]
+        
+        },
+        "UILabel[name=diagnosticTitle]" : {
+            "@inherits" : [ "$subviewTitle" ],
+            "text" : "Diagnostic"
+        },
+        "UILabel[name=diagnosticInfo]" : {
+            "@inherits" : [ "$subviewText" ]
+        },
+        "UILabel[name=notesTitle]" : {
+            "@inherits" : [ "$subviewTitle" ],
+            "text" : "Notes"
+        },
+        "UILabel[name=notesInfo]" : {
+            "@inherits" : [ "$subviewText" ], 
+            "text" : "(12:15) Nausées"
+        
+        }
+    }
+
+}

@@ -1,0 +1,35 @@
+{
+    "@import" : [
+    ],
+
+    "RXTaskListCellController" : {
+        "UITableViewCell" : {
+            "contentView" : {
+                "backgroundColor" : "greenColor",
+                "layoutBoxes" : {
+                    { "@class" : "CKHorizontalBoxLayout", "layoutBoxes" : [
+                        { "@class" : "CKVerticalBoxLayout", "layoutBoxes" : [
+                            { "@class" : "CKLayoutFlexibleView" },
+                            { "@class" : "UILabel", "name" : "timeLabel"},
+                            { "@class" : "CKLayoutFlexibleView" }
+                        ] },
+                        { "@class" : "CKLayoutFlexibleView" }
+                    ]}
+                }
+            },
+            "backgroundView" : {
+            },
+            "selectedBackgroundView" : {
+            },
+            "textLabel" : {
+            },
+            "detailTextLabel" : {
+            },
+            "imageView" : {
+            }
+        }
+    },
+    "UILabel[name=timeLabel]" : {
+        "text" : "66:66 PM"
+    }
+}

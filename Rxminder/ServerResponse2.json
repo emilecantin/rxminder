@@ -1,0 +1,341 @@
+{
+	"date_begin": "2014-02-22T20:17:47.852Z",
+	"date_end": "2014-02-23T03:17:47.852Z",
+	"patients" : [
+                  {
+                  "initials": "SB",
+                  "age": "22",
+                  "weight": "70",
+                  "number": "1",
+                  "diagnostic": "Accouchement vaginal spontanné",
+                  "description": "",
+                  "tasks":
+                  [
+                   {
+                   "name": "Bilirubine",
+                   "type": "BABY",
+                   "start_time": "2014-02-23T16:00:00.000Z"
+                   },
+                   {
+                   "name": "Bilirubine",
+                   "type": "BABY",
+                   "start_time": "2014-02-23T17:00:00.000Z"
+                   },
+                   {
+                   "name": "RR",
+                   "type": "VITAL_SIGNS",
+                   "start_time": "2014-02-23T11:00:00.000Z"
+                   },
+                   {
+                   "name": "PLS",
+                   "type": "VITAL_SIGNS",
+                   "start_time": "2014-02-23T11:00:00.000Z"
+                   },
+                   {
+                   "name": "PA",
+                   "type": "VITAL_SIGNS",
+                   "start_time": "2014-02-23T11:00:00.000Z"
+                   },
+                   {
+                   "name": "SatO2",
+                   "type": "VITAL_SIGNS",
+                   "start_time": "2014-02-23T15:00:00.000Z"
+                   }
+                   ],
+                  "taskDescriptions": [
+                            {
+                            "name" : "Médicaments",
+                            "type": "DRUG"
+                            },
+                            {
+                            "name" : "Signes vitaux",
+                            "type": "VITAL_SIGNS",
+                            "tasks" : [
+                                       {
+                                       "name" : "PA",
+                                       "type": "VITAL_SIGNS"
+                                       },
+                                       {
+                                       "name" : "PLS",
+                                       "type": "VITAL_SIGNS"
+                                       },
+                                       {
+                                       "name" : "SatO2",
+                                       "type": "VITAL_SIGNS"
+                                       },
+                                       {
+                                       "name" : "RR",
+                                       "type": "VITAL_SIGNS"
+                                       }
+                                       ]
+                            },
+                            {
+                            "name": "Enseignement",
+                            "type": "TEACHING",
+                            "tasks": [
+                                      {
+                                      "name": "Syndrôme du bébé secoué",
+                                      "type": "TEACHING"
+                                      },
+                                      {
+                                      "name": "Bain du bébé",
+                                      "type": "TEACHING"
+                                      },
+                                      {
+                                      "name": "Allaitement",
+                                      "type": "TEACHING"
+                                      }
+                                      ]
+                            },
+                            {
+                            "name": "Bébé",
+                            "type": "BABY",
+                            "tasks": [
+                                      {
+                                      "name": "Signes vitaux",
+                                      "type": "BABY"
+                                      },
+                                      {
+                                      "name": "Bain",
+                                      "type": "BABY"
+                                      },
+                                      {
+                                      "name": "Tests",
+                                      "type": "BABY",
+                                      "tasks": [
+                                                {
+                                                "name": "Bilirubine",
+                                                "type": "BABY"
+                                                },
+                                                {
+                                                "name": "FSC",
+                                                "type": "BABY"
+                                                },
+                                                {
+                                                "name": "Glycémie",
+                                                "type": "BABY"
+                                                }
+                                                ]
+                                      }
+                                      ]
+                            },
+                            {
+                            "name": "Note",
+                            "type": "NOTE"
+                            }
+                            ]
+                  },
+                  {
+                  "initials": "LC",
+                  "age": "26",
+                  "weight": "55",
+                  "number": "3",
+                  "diagnostic": "Accouchement par césarienne",
+                  "description": "",
+                  "taskDescriptions": [
+                            {
+                            "name" : "Médicaments",
+                            "type": "DRUG"
+                            },
+                            {
+                            "name" : "Signes vitaux",
+                            "type": "VITAL_SIGNS",
+                            "tasks" : [
+                                       { 
+                                       "name" : "PA",
+                                       "type": "VITAL_SIGNS"
+                                       },
+                                       { 
+                                       "name" : "PLS",
+                                       "type": "VITAL_SIGNS"
+                                       },
+                                       { 
+                                       "name" : "SatO2",
+                                       "type": "VITAL_SIGNS" 
+                                       },
+                                       { 
+                                       "name" : "RR",
+                                       "type": "VITAL_SIGNS"
+                                       }
+                                       ]
+                            },
+                            {
+                            "name": "Enseignement",
+                            "type": "TEACHING",
+                            "tasks": [
+                                      {
+                                      "name": "Syndrôme du bébé secoué",
+                                      "type": "TEACHING"
+                                      },
+                                      {
+                                      "name": "Bain du bébé",
+                                      "type": "TEACHING"
+                                      },
+                                      {
+                                      "name": "Allaitement",
+                                      "type": "TEACHING"
+                                      }
+                                      ]
+                            },
+                            {
+                            "name": "Bébé",
+                            "type": "BABY",
+                            "tasks": [
+                                      {
+                                      "name": "Signes vitaux",
+                                      "type": "BABY"	
+                                      },
+                                      {
+                                      "name": "Bain",
+                                      "type": "BABY"
+                                      },
+                                      {
+                                      "name": "Tests",
+                                      "type": "BABY",
+                                      "tasks": [
+                                                {
+                                                "name": "Bilirubine",
+                                                "type": "BABY"
+                                                },
+                                                {
+                                                "name": "FSC",
+                                                "type": "BABY"
+                                                },
+                                                {
+                                                "name": "Glycémie",
+                                                "type": "BABY"
+                                                }
+                                                ]
+                                      }
+                                      ]
+                            },
+                            {
+                            "name": "Note",
+                            "type": "NOTE"
+                            }
+                            ]
+                  },
+                  {
+                  "initials": "GBS",
+                  "age": "22",
+                  "weight": "72",
+                  "number": "8",
+                  "diagnostic": "Accouchement vaginal spontané",
+                  "description": "",
+                     "tasks":
+                     [
+                      {
+                      "name": "RR",
+                      "type": "VITAL_SIGNS",
+                      "start_time": "2014-02-23T14:30:00.000Z"
+                      },
+                      {
+                      "name": "PLS",
+                      "type": "VITAL_SIGNS",
+                      "start_time": "2014-02-23T07:30:00.000Z"
+                      },
+                      {
+                      "name": "PA",
+                      "type": "VITAL_SIGNS",
+                      "start_time": "2014-02-23T08:30:00.000Z"
+                      },
+                      {
+                      "name": "SatO2",
+                      "type": "VITAL_SIGNS",
+                      "start_time": "2014-02-23T10:30:00.000Z"
+                      },
+                      {
+                      "name": "Syndrôme du bébé secoué",
+                      "type": "TEACHING",
+                      "start_time": "2014-02-23T9:30:00.000Z"
+                      },
+                      {
+                      "name": "Antécédents de violences",
+                      "type": "NOTE"
+                      }
+                      ]
+                     }
+                     ],
+                  "taskDescriptions": [
+                            {
+                            "name" : "Médicaments",
+                            "type": "DRUG"
+                            },
+                            {
+                            "name" : "Signes vitaux",
+                            "type": "VITAL_SIGNS",
+                            "tasks" : [
+                                       { 
+                                       "name" : "PA",
+                                       "type": "VITAL_SIGNS"
+                                       },
+                                       { 
+                                       "name" : "PLS",
+                                       "type": "VITAL_SIGNS"
+                                       },
+                                       { 
+                                       "name" : "SatO2",
+                                       "type": "VITAL_SIGNS" 
+                                       },
+                                       { 
+                                       "name" : "RR",
+                                       "type": "VITAL_SIGNS"
+                                       }
+                                       ]
+                            },
+                            {
+                            "name": "Enseignement",
+                            "type": "TEACHING",
+                            "tasks": [
+                                      {
+                                      "name": "Syndrôme du bébé secoué",
+                                      "type": "TEACHING"
+                                      },
+                                      {
+                                      "name": "Bain du bébé",
+                                      "type": "TEACHING"
+                                      },
+                                      {
+                                      "name": "Allaitement",
+                                      "type": "TEACHING"
+                                      }
+                                      ]
+                            },
+                            {
+                            "name": "Bébé",
+                            "type": "BABY",
+                            "tasks": [
+                                      {
+                                      "name": "Signes vitaux",
+                                      "type": "BABY"	
+                                      },
+                                      {
+                                      "name": "Bain",
+                                      "type": "BABY"
+                                      },
+                                      {
+                                      "name": "Tests",
+                                      "type": "BABY",
+                                      "tasks": [
+                                                {
+                                                "name": "Bilirubine",
+                                                "type": "BABY"
+                                                },
+                                                {
+                                                "name": "FSC",
+                                                "type": "BABY"
+                                                },
+                                                {
+                                                "name": "Glycémie",
+                                                "type": "BABY"
+                                                }
+                                                ]
+                                      }
+                                      ]
+                            },
+                            {
+                            "name": "Note",
+                            "type": "NOTE"
+                            }
+                            ]
+                  }

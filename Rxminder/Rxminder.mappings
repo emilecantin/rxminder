@@ -1,0 +1,42 @@
+{
+    "$PatientTaskDescriptors" : {
+        "@class" : "RXPatient",
+        "initials" : "initials",
+        "age" : "age",
+        "weight" : "weight", 
+        "bed" : "number",
+        "description" : "description",
+        "diagnostic" : "diagnostic",
+        "taskDescriptors" : {
+            "@keyPath" : "taskDescriptions",
+            "@object" : {
+                "@class" : "RXTaskDescriptor",
+                "@mappings" : "$TaskDescriptor"
+            }
+        },
+        "tasks" : {
+            "@keyPath" : "tasks",
+            "@object" : {
+                "@class" : "RXTimedTask",
+                "@mappings" : "$TimedTask"
+            }
+        }
+    },
+    "$TaskDescriptor" : {
+        "@class" : "RXTaskDescriptor",
+        "name" : "name",
+        "type" : "type",
+        "subtasks" : {
+            "@keyPath" : "tasks",
+            "@object" : {
+                "@class" : "RXTaskDescriptor",
+                "@mappings" : "$TaskDescriptor"
+            }
+        }
+    },
+    "$TimedTask" : {
+        "@class" : "RXTimedTask",
+        "task" : "name",
+        "type" : "type"
+    }
+}

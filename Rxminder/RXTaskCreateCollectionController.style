@@ -1,0 +1,45 @@
+{
+
+    "@import" : [
+        "UINavigationController",
+        "Labels"
+    ],
+
+    "RXTaskCreateCollectionController" : {
+
+        "view" : {
+            "backgroundColor" : "whiteColor"
+        },
+
+        "collectionView" : {
+            "backgroundColor" : "clearColor"
+        },
+
+
+        "CKCollectionContentCellController" : {
+            "UICollectionViewCell" : {
+                "contentView" : {
+                    "layoutBoxes" : [
+                        { "@class" : "CKVerticalBoxLayout", "padding" : "5 5 5 5", "layoutBoxes" : [
+                            { "@class" : "CKImageView", "name" : "buttonImage" },
+                            { "@class" : "UILabel", "name" : "descriptorName" }
+                        ]}
+                    ]
+                },
+                "backgroundView" : {
+                    "backgroundColor" : "redColor"
+                },
+                "selectedBackgroundView" : {
+                }
+            },
+            "UILabel[name=descriptorName]" : {
+                "@inherits" : [ "$createButtonLabel" ]
+            },
+            "CKImageView[name=buttonImage]" : {
+                "defaultImage" : "medicaments"
+            }
+        }
+
+    }
+
+}
